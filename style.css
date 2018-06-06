@@ -63,3 +63,21 @@ footer {
         text-align: center;
         font-size: 14px;
 }
+
+/* Beginning of Contact Page Styling */
+
+.form_format {
+       padding-top: 20px;
+}
+
+.form-group {
+             padding-right: 40px;
+}
+
+label {
+       margin-bottom: 0;
+}
+
+.btn {
+      margin-bottom: 25px;
+}
