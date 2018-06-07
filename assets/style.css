@@ -1,3 +1,4 @@
+/* Beginning of NavBar Styling */
 .navbar {
          padding: 0%;
          background: white;
@@ -21,11 +22,15 @@
            border-right: 1px solid #cccccc;
 }
 
+/* a:visited {
+           color: red;
+} */
+
 /* Beginning of the Main Body Content */
 .main_background {
-                  background-image: url("assets/fresh_snow.png");
+                  background-image: url("fresh_snow.png");
                   padding-top: 30px;
-                  padding-bottom: 60px;
+                  padding-bottom: 80px;
                   border-bottom: 8px solid #4aaaa5;
 }
 
@@ -57,10 +62,13 @@
 }
 
 /* Beginning of Footer */
-footer {
+.footy {
         background: #666666;
+        border-top: 8px solid #4aaaa5;
         color: #cccccc;
         text-align: center;
+        padding-top: 12px;
+        height: 8%;
         font-size: 14px;
 }
 
@@ -80,4 +88,40 @@ label {
 
 .btn {
       margin-bottom: 25px;
+}
+
+/* Beginning of Portfolio Page Styling */
+.pictures {
+           margin: 30px 0;
+           color: white;
+           width: 240px;
+           height: 220px;
+           background-size: cover;
+           position: relative;
+}
+
+.business {
+           background-image: url("business.jpg");
+}
+
+.photography {
+              background-image:  url("picture2.jpg")
+}
+
+.mobile {
+         background-image: url("mobile.jpg")
+}
+
+.desktop {
+          background-image: url("desktop.jpg")
+}
+
+.text_position {
+                position: absolute;
+                bottom: 5%;
+                background: rgba(74, 170, 165, 0.75);
+                font-weight: bold;
+                text-align: center;
+                width: 100%;
+                padding: 5%;
 }
